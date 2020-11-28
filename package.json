@@ -1,0 +1,19 @@
+{
+  "name": "education__testing",
+  "version": "1.0.0",
+  "description": "A snapshot of my testing libraries education",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniilZinoviev/education__testing.git"
+  },
+  "keywords": [],
+  "author": "Daniil Zinoviev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniilZinoviev/education__testing/issues"
+  },
+  "homepage": "https://github.com/DaniilZinoviev/education__testing#readme"
+}
