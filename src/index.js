@@ -1,5 +1,8 @@
-function sum(a, b) {
+export function sum(a, b) {
   return a + b;
 }
 
-export default sum;
+export function divide(a, b) {
+  return a / b;
+}
+
