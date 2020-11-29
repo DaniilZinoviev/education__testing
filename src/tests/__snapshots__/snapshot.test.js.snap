@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snaphsots testing array 1`] = `
+Array [
+  1,
+  2,
+  true,
+  Object {
+    "a": 15,
+  },
+  "test",
+]
+`;
+
+exports[`snaphsots testing object 1`] = `
+Object {
+  "a": 12,
+  "b": "testing snapshot",
+}
+`;

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A snapshot of my testing libraries education",
   "scripts": {
-    "test": "jest --verbose --injectGlobals=false"
+    "test": "jest --verbose --watch --injectGlobals=false"
   },
   "repository": {
     "type": "git",
