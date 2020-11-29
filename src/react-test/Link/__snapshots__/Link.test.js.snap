@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component Link should test 1`] = `
+<a
+  className="test"
+  href="https://example.com/"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  Example
+</a>
+`;
+
+exports[`component Link should test 2`] = `
+<a
+  className="hover"
+  href="https://example.com/"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  Example
+</a>
+`;
