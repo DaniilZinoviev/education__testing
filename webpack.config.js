@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+// const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const path = require('path');
 
 module.exports = (env = {}) => {
   const { MODE: mode = "development" } = env;
@@ -10,6 +11,11 @@ module.exports = (env = {}) => {
 
   return {
     mode: isProd ? "production" : "development",
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, 'src')
+      }
+    },
     module: {
       rules: [
         {

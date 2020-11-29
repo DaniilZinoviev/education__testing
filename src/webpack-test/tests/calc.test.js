@@ -1,4 +1,4 @@
-import Calc from "../Calc";
+import Calc from "@/webpack-test/Calc";
 import { describe, test, jest, expect } from "@jest/globals";
 
 describe("Calc module", () => {
