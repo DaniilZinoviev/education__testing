@@ -7,6 +7,6 @@ Each testing library has own GIT branch.
 - Jest
 
 1. General
-2. (Not yet) Integration with webpack
-3. (Not yet) Testing React
-4. (Not yen) Testing Redux
+2. Integration with webpack
+3. (Not yet) Testing React (With React testing library and Enzyme)
+4. (Not yet) Testing Redux
